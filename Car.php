@@ -6,13 +6,13 @@
 
         private int $currentSpeed;
 
-        public int $nbSeats;
+        private int $nbSeats;
 
-        public int $nbWheels;
+        private int $nbWheels;
 
-        public string $energy;
+        private string $energy;
 
-        public int $energyLevel;
+        private int $energyLevel;
 
         public function __construct(string $color, int $nbSeats, string $energy)
             {
