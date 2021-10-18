@@ -8,10 +8,10 @@
         private int $currentSpeed;
 
 
-        public int $nbSeats=1;
+        private int $nbSeats=1;
 
 
-        public int $nbWheels=2;
+        private int $nbWheels=2;
 
         public function __construct(string $color)
             {
